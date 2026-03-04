@@ -11,9 +11,7 @@ export default function Home() {
   return (
     <main className="">
       <Hero />
-
       <Features />
-
       <div className='py-28 bg-white'>
         <DetailsSection
           title="Coordinate with your Friends instead of team effortlessly"
@@ -23,7 +21,6 @@ export default function Home() {
           illustrationColor="bg-brand/10"
           emoji="👥"
         />
-
         <DetailsSection
           title="Seamless attendee check-in"
           description="Adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Curabitur vel interdum lorem."
@@ -38,7 +35,6 @@ export default function Home() {
       <Pricing />
       <Testimonials />
       <FAQSection />
-
       <CTASection />
     </main>
   )
