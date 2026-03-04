@@ -19,7 +19,7 @@ const plans = [
   },
   {
     name: "Yearly",
-    price: "49",
+    price: "100",
     features: ["Unlimited Events", "1,000 Attendees", "Priority Support", "Advanced Analytics"],
     highlighted: true,
     color: "bg-[#0b0e1f]",
@@ -28,7 +28,7 @@ const plans = [
   },
   {
     name: "Monthly",
-    price: "5.5",
+    price: "10",
     features: ["3 Event per month", "1,000 Attendees", "Priority Support", "Advanced Analytics"],
     highlighted: false,
     color: "bg-white",
@@ -91,7 +91,7 @@ export function Pricing() {
 
   return (
     <section
-      className="bg-background py-20 sm:py-24 lg:py-32 px-4 sm:px-6 md:px-10 lg:px-24"
+      className="bg-white py-20 sm:py-24 lg:py-32 px-4 sm:px-6 md:px-10 lg:px-24"
       ref={ref}
     >
       <div className="mx-auto container">
@@ -128,9 +128,9 @@ export function Pricing() {
               key={index}
               variants={cardVariants}
               whileHover={!plan.highlighted ? { y: -12, transition: { duration: 0.3, ease: EASE } } : {}}
-              className={`group relative rounded-xl p-6 sm:p-8 md:p-8 lg:p-10 shadow-xl transition-shadow duration-500 ${plan.color} ${plan.highlighted
-                  ? "z-10 scale-100 md:scale-105"
-                  : "shadow-slate-200/50 border border-slate-50"
+              className={`group relative rounded-xl p-6 sm:p-8 md:p-8 lg:p-10 duration-500 ${plan.color} ${plan.highlighted
+                ? "z-10 scale-100 md:scale-105"
+                : "shadow-slate-200/50 border border-slate-50"
                 }`}
             >
               <div className="flex flex-col h-full">
@@ -180,7 +180,7 @@ export function Pricing() {
                   whileTap={{ scale: 0.97 }}
                 >
                   <Button
-                    className="w-full rounded-lg cursor-pointer py-5 sm:py-6 text-base sm:text-lg font-bold transition-all shadow-xl shadow-brand/20 bg-brand hover:bg-brand/90 text-white"
+                    className="w-full rounded-lg cursor-pointer py-5 sm:py-6 text-base sm:text-lg font-normal transition-all shadow-xl shadow-brand/20 bg-brand hover:bg-brand/90 text-white"
                   >
                     Get Started
                   </Button>

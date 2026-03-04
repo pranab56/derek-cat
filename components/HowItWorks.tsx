@@ -79,8 +79,12 @@ export function HowItWorks() {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: "-80px" })
 
+
+
   return (
-    <section className="bg-background py-16 sm:py-20 lg:py-24 px-4 sm:px-6 md:px-10 lg:px-24" ref={ref}>
+    <section className="py-16 sm:py-20 lg:py-38 px-4 sm:px-6 md:px-10 lg:px-24" ref={ref} style={{
+      background: "linear-gradient(98.96deg, #F9F9F9 0%, #EBF0FF 164.61%)",
+    }}>
       <div className="mx-auto container">
 
         {/* Heading */}

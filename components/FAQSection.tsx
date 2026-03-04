@@ -89,7 +89,7 @@ export function FAQSection({ showTitle = true }: { showTitle?: boolean }) {
 
   return (
     <section
-      className="bg-background py-16 sm:py-20 lg:py-24 px-4 sm:px-6 md:px-10 lg:px-24 mb-20"
+      className="bg-[#EBF0FF] py-16 sm:py-20 lg:py-38 px-4 sm:px-6 md:px-10 lg:px-24 "
       ref={ref}
     >
       <div className="mx-auto max-w-4xl">

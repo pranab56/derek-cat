@@ -57,7 +57,7 @@ const floatAnimation: Variants = {
 
 export function Hero() {
   return (
-    <section className="relative flex bg-[#EBF0FF] min-h-screen items-center overflow-hidden px-4 pt-20 sm:px-6 md:px-10 lg:px-24">
+    <section className="relative flex bg-[#EBF0FF] min-h-screen items-center overflow-hidden px-4 pt-32 pb-10 sm:px-6 md:px-10 lg:px-24">
 
       {/* Subtle background blobs */}
       <div className="pointer-events-none absolute inset-0 -z-10">
@@ -114,7 +114,7 @@ export function Hero() {
             <motion.button
               whileHover={{ scale: 1.06, y: -2 }}
               whileTap={{ scale: 0.97 }}
-              className="group flex cursor-pointer items-center gap-2 sm:gap-3 rounded-2xl bg-[#1a1f36] px-5 py-3 sm:px-8 sm:py-4 text-white transition-colors shadow-xl shadow-slate-900/20 hover:bg-slate-800"
+              className="group flex cursor-pointer items-center gap-2 sm:gap-3 rounded-2xl bg-[#1a1f36] px-5 py-2 sm:px-8 sm:py-3 text-white transition-colors shadow-xl shadow-slate-900/20 hover:bg-slate-800"
             >
               {/* Apple Logo SVG */}
               <svg xmlns="http://www.w3.org/2000/svg" width="20" height="24" viewBox="0 0 20 24" fill="none">
@@ -122,8 +122,8 @@ export function Hero() {
                 <path d="M13.621 3.84713C14.5372 2.77343 14.9885 1.39335 14.8792 0C13.4796 0.143519 12.1867 0.796596 11.2582 1.82911C10.8043 2.33351 10.4566 2.92033 10.235 3.55601C10.0135 4.19168 9.92244 4.86375 9.9671 5.5338C10.6672 5.54084 11.3597 5.3927 11.9927 5.10054C12.6256 4.80838 13.1824 4.37982 13.621 3.84713Z" fill="white" />
               </svg>
               <div className="flex flex-col items-start leading-none">
-                <span className="text-[9px] sm:text-[10px] uppercase font-bold text-slate-400">Download on the</span>
-                <span className="text-base sm:text-xl font-bold">App Store</span>
+                <span className="text-[9px] sm:text-[10px] uppercase font-bold text-gray-200">Download on the</span>
+                <span className="text-base sm:text-xl font-medium">App Store</span>
               </div>
             </motion.button>
 
@@ -141,8 +141,8 @@ export function Hero() {
                 <path d="M9.87617 12L14.904 6.85945L3.98152 0.383598C3.58459 0.140054 3.12105 8.67844e-05 2.62557 8.67844e-05C1.41197 8.67844e-05 0.388161 0.84456 0.0897792 1.99043C0.0897792 1.99136 0.0888672 1.9923 0.0888672 1.99323L9.87617 12Z" fill="#34A853" />
               </svg>
               <div className="flex flex-col items-start leading-none">
-                <span className="text-[9px] sm:text-[10px] uppercase font-bold text-slate-400">GET IT ON</span>
-                <span className="text-base sm:text-xl font-bold">Google Play</span>
+                <span className="text-[9px] sm:text-[10px] uppercase font-bold text-gray-200">GET IT ON</span>
+                <span className="text-base sm:text-xl font-medium">Google Play</span>
               </div>
             </motion.button>
           </motion.div>

@@ -73,7 +73,7 @@ export function Testimonials() {
 
   return (
     <section
-      className="bg-background py-16 sm:py-20 lg:py-24 px-4 sm:px-6 md:px-10 lg:px-24"
+      className="bg-white py-16 sm:py-20 lg:py-24 px-4 sm:px-6 md:px-10 lg:px-24"
       ref={ref}
     >
       <div className="mx-auto container">
@@ -110,9 +110,9 @@ export function Testimonials() {
             {testimonials.map((item, index) => (
               <SwiperSlide key={index}>
                 <motion.div
-                  whileHover={{ y: -6, boxShadow: "0 24px 60px -12px rgba(0,0,0,0.12)" }}
-                  transition={{ duration: 0.3, ease: EASE }}
-                  className="flex flex-col h-full bg-white rounded-3xl p-5 sm:p-8 border border-slate-100 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.05)] transition-all duration-300 cursor-default"
+                  // whileHover={{ y: -6, boxShadow: "0 24px 60px -12px rgba(0,0,0,0.12)" }}
+                  // transition={{ duration: 0.3, ease: EASE }}
+                  className="flex flex-col h-full bg-white rounded-xl p-5 sm:p-8 border border-slate-100 shadow-[0_10px_40px_-15px_rgba(0,0,0,0.05)] transition-all duration-300 cursor-default"
                 >
                   {/* Stars */}
                   <div className="flex gap-1 mb-4 sm:mb-6">
@@ -130,7 +130,7 @@ export function Testimonials() {
                   </div>
 
                   {/* Quote text */}
-                  <p className="text-sm sm:text-base lg:text-lg text-slate-500 font-medium leading-relaxed mb-6 sm:mb-8 flex-1 italic">
+                  <p className="text-sm sm:text-base lg:text-lg text-slate-500 font-normal mb-6 sm:mb-8 flex-1">
                     &quot;{item.text}&quot;
                   </p>
 
@@ -140,8 +140,8 @@ export function Testimonials() {
                       <img src={item.avatar} alt={item.name} className="h-full w-full object-cover" />
                     </div>
                     <div>
-                      <h4 className="text-xs sm:text-sm font-bold text-slate-900 leading-none mb-1">{item.name}</h4>
-                      <p className="text-[9px] sm:text-[10px] font-bold text-slate-400 uppercase tracking-wider">{item.role}</p>
+                      <h4 className="text-sm sm:text-base font-normal text-slate-900 leading-none mb-1">{item.name}</h4>
+                      <p className="text-xs sm:text-xs font-normal text-gray-500 ">{item.role}</p>
                     </div>
                   </div>
                 </motion.div>

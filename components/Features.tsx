@@ -100,7 +100,7 @@ function AnimatedSection({ children, className }: { children: React.ReactNode; c
 
 export function Features() {
   return (
-    <section className="bg-white py-16 sm:py-20 lg:py-24 px-4 sm:px-6 md:px-10 lg:px-24">
+    <section className="bg-white py-16 sm:py-20 lg:py-32  px-4 sm:px-6 md:px-10 lg:px-24">
       <div className="mx-auto container">
 
         {/* Section Header */}

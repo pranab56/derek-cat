@@ -68,7 +68,7 @@ export function DetailsSection({ title, description, points, imageSide, illustra
   const isInView = useInView(ref, { once: true, margin: "-80px" })
 
   return (
-    <section className="bg-white overflow-hidden pb-12 sm:pb-16 lg:pb-20" ref={ref}>
+    <section className="bg-white overflow-hidden  pb-12 sm:pb-16 lg:pb-20" ref={ref}>
       <div
         className={`flex container mx-auto flex-col gap-8 sm:gap-12 lg:gap-16 lg:flex-row lg:items-center px-4 sm:px-6 md:px-0 ${imageSide === "left" ? "lg:flex-row-reverse" : ""
           }`}
