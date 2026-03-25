@@ -103,7 +103,7 @@ export function Hero() {
             variants={fadeInUp}
             className="mt-4 sm:mt-6 lg:mt-8 max-w-xl text-sm sm:text-base lg:text-lg text-slate-900 leading-relaxed font-normal"
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+            This app stops the endless back and forth of event coordination from a group chat and centralizes it into a single, easy-to-use platform.
           </motion.p>
 
           <motion.div
