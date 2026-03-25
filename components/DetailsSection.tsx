@@ -134,7 +134,7 @@ export function DetailsSection({ title, description, points, imageSide, illustra
               {emoji === "📱" ? (
                 <div>
                   <Image
-                    src="/images/image2.png"
+                    src="/images/change-frend.png"
                     alt="mobile"
                     width={1000}
                     height={1000}
@@ -145,7 +145,7 @@ export function DetailsSection({ title, description, points, imageSide, illustra
                 <>
                   <div>
                     <Image
-                      src="/images/image1.png"
+                      src="/images/change-frend.png"
                       alt="mobile"
                       width={1000}
                       height={1000}

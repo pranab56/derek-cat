@@ -15,20 +15,13 @@ export default function Home() {
       <div className='py-28 bg-white'>
         <DetailsSection
           title="Coordinate with your Friends instead of team effortlessly"
-          description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at."
-          points={["Detail point one lorem ipsum", "Detail point two sit amet"]}
+          description="Whether you’re planning a getaway or just grabbing dinner, the Cat Herding App makes it easy to synchronize everyone’s busy schedule to find a time to connect with friends with features such as:"
+          points={["Finding days that are available ", "Suggesting and voting on the best dates and times", "RSVP Tracking ", "Creating to-do lists and managing responsibilities ", "In event messaging "]}
           imageSide="right"
           illustrationColor="bg-brand/10"
           emoji="👥"
         />
-        <DetailsSection
-          title="Seamless attendee check-in"
-          description="Adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Curabitur vel interdum lorem."
-          points={["QR code scanning built-in", "Detail point two sit amet"]}
-          imageSide="left"
-          illustrationColor="bg-brand/10"
-          emoji="📱"
-        />
+
       </div>
 
       <HowItWorks />

@@ -8,26 +8,26 @@ const EASE: [number, number, number, number] = [0.22, 1, 0.36, 1]
 
 const features = [
   {
-    title: "Smart Scheduling",
-    description: "Intelligent algorithms to find the perfect time for every stakeholder.",
+    title: "Schedule Tracking",
+    description: "Coordinates guest and calendars to find the perfect time for everyone.",
     icon: Calendar,
     color: "bg-brand/10 text-brand",
   },
   {
     title: "Guest Management",
-    description: "Manage RSVPs, dietary requirements, and seating charts in one place.",
+    description: "Manage RSVPs, reservation information, car pools, lists all in one place",
     icon: Users,
     color: "bg-brand/10 text-brand",
   },
   {
     title: "Budget Tracking",
-    description: "Keep your finances under control with automated expense tracking.",
+    description: "Tracks expenses and contributions for all guests.",
     icon: Wallet,
     color: "bg-brand/10 text-brand",
   },
   {
-    title: "Real-time Analytics",
-    description: "Monitor event performance and engagement with live data dashboards.",
+    title: "Live Tracking",
+    description: "Monitor event updates and engagement with real time notifications and messaging ",
     icon: BarChart3,
     color: "bg-brand/10 text-brand",
   },
