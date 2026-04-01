@@ -11,7 +11,7 @@ const plans = [
   {
     name: "Weekly",
     price: "0",
-    features: ["1 Event per month", "50 Attendees", "Basic Support"],
+    features: ["3 events per month", "Up to 4 attendees", "Basic Support"],
     highlighted: false,
     color: "bg-white",
     textColor: "text-slate-900",
@@ -20,7 +20,7 @@ const plans = [
   {
     name: "Yearly",
     price: "100",
-    features: ["Unlimited Events", "1,000 Attendees", "Priority Support", "Advanced Analytics"],
+    features: ["Unlimited Events", "Up to 1000 attendees", "Priority Support", "Advanced Analytics"],
     highlighted: true,
     color: "bg-[#0b0e1f]",
     textColor: "text-white",
@@ -29,7 +29,7 @@ const plans = [
   {
     name: "Monthly",
     price: "10",
-    features: ["3 Event per month", "1,000 Attendees", "Priority Support", "Advanced Analytics"],
+    features: ["10 events per month", "Up to 10 attendees", "Priority Support", "Advanced Analytics"],
     highlighted: false,
     color: "bg-white",
     textColor: "text-slate-900",
