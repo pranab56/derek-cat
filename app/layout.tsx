@@ -19,6 +19,8 @@ export const metadata: Metadata = {
   description: "Plan events without the stress.",
 };
 
+import { ReduxProvider } from "../redux/ReduxProvider";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -29,9 +31,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Header />
-        {children}
-        <Footer />
+        <ReduxProvider>
+          <Header />
+          {children}
+          <Footer />
+        </ReduxProvider>
       </body>
     </html>
   );
