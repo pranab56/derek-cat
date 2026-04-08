@@ -10,7 +10,9 @@ export const store = configureStore({
     getDefaultMiddleware().concat(packageApi.middleware),
 });
 
-setupListeners(store.dispatch);
+if (typeof window !== "undefined") {
+  setupListeners(store.dispatch);
+}
 
 export type RootState = ReturnType<typeof store.getState>;
 export type AppDispatch = typeof store.dispatch;

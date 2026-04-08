@@ -114,9 +114,9 @@ export function Pricing() {
           >
             {packages.map((pkg, index) => {
               // Find the monthly price if available, otherwise use free or the first price
-              const monthlyPrice = pkg.planPrices.find(p => p.type === "month")?.price ?? pkg.planPrices[0]?.price ?? 0;
-              const isFree = pkg.title.toLowerCase().includes("free");
-              const isPremium = pkg.title.toLowerCase().includes("premium");
+              const monthlyPrice = pkg.planPrices?.find(p => p.type === "month")?.price ?? pkg.planPrices?.[0]?.price ?? 0;
+              const isFree = pkg.title?.toLowerCase()?.includes("free") ?? false;
+              const isPremium = pkg.title?.toLowerCase()?.includes("premium") ?? false;
 
               return (
                 <motion.div
@@ -152,7 +152,7 @@ export function Pricing() {
 
                     {/* Features list */}
                     <ul className="space-y-4 sm:space-y-6 mb-8 sm:mb-12 flex-1">
-                      {pkg.benefits.length > 0 ? (
+                      {pkg.benefits && pkg.benefits.length > 0 ? (
                         pkg.benefits.map((benefit, i) => (
                           <motion.li
                             key={i}
