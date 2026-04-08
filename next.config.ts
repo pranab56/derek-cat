@@ -39,6 +39,18 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+  async rewrites() {
+    return [
+      {
+        source: "/add-friend/:path*",
+        destination: "/",
+      },
+      {
+        source: "/event/:path*",
+        destination: "/",
+      },
+    ];
+  },
 };
 
 export default nextConfig;
