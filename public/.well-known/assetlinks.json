@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app" ,
+      "package_name": "com.derekcheng.derekcat",
+      "sha256_cert_fingerprints": [
+        "1F:45:01:8D:3B:5A:93:C7:95:08:67:D0:36:CD:E1:B2:E3:A9:F3:98:2E:CF:A0:06:98:E7:35:47:44:AB:B1:69"
+      ]
+    }
+  }
+]

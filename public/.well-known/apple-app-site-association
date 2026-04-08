@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "TC79G3B3C9.com.derekcheng.derekcat"
+        ],
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "TC79G3B3C9.com.derekcheng.derekcat"
+    ]
+  }
+}
