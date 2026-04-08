@@ -33,7 +33,7 @@ export interface ApiResponse {
 
 export const packageApi = createApi({
   reducerPath: "packageApi",
-  baseQuery: fetchBaseQuery({ baseUrl: "http://10.10.7.65:5004/api/v1" }),
+  baseQuery: fetchBaseQuery({ baseUrl: "https://api.catherdingapp.com/api/v1" }),
   endpoints: (builder) => ({
     getPackages: builder.query<ApiResponse, void>({
       query: () => "/package/packages",
