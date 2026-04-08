@@ -10,6 +10,14 @@ const nextConfig: NextConfig = {
             key: "Content-Type",
             value: "application/json",
           },
+          {
+            key: "Cache-Control",
+            value: "no-cache, no-store, must-revalidate",
+          },
+          {
+            key: "Access-Control-Allow-Origin",
+            value: "*",
+          },
         ],
       },
       {
@@ -18,6 +26,14 @@ const nextConfig: NextConfig = {
           {
             key: "Content-Type",
             value: "application/json",
+          },
+          {
+            key: "Cache-Control",
+            value: "no-cache, no-store, must-revalidate",
+          },
+          {
+            key: "Access-Control-Allow-Origin",
+            value: "*",
           },
         ],
       },
