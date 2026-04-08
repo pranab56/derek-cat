@@ -37,6 +37,24 @@ const nextConfig: NextConfig = {
           },
         ],
       },
+      {
+        source: "/add-friend/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "no-cache, no-store, must-revalidate",
+          },
+        ],
+      },
+      {
+        source: "/event/:path*",
+        headers: [
+          {
+            key: "Cache-Control",
+            value: "no-cache, no-store, must-revalidate",
+          },
+        ],
+      },
     ];
   },
   async rewrites() {
